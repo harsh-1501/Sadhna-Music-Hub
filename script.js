@@ -30,9 +30,10 @@ const songs = [
   { title: "Tune Zindagi Mein", artist: "Udit Narayan", src: "Tune Zindagi Mein(KoshalWorld.Com).mp3" },
   { title: "O Re Piya", artist: "Atif Aslam", src: "Atif_Aslam_-_O_Re_Piya_(mp3.pm).mp3" },
   { title: "Ek Pal Ka Jeena - Mashup by Khudgharz", artist: "Khudgharz Band", src: "Ek Pal Ka Jeena _ Samjho Na _ Tauba Tauba _ Wishes _ 9_45 _ KHUDGHARZ(MP3_160K).mp3" },
-  { title: "Tenu Na Bol Pawaan", artist: "Unknown", src: "Tenu Na Bol Pawaan - Behen Hogi Teri _ Shruti Haasan_Raj Kummar Rao _ Amjad Nadeem(MP3_160K).mp3" },
+  { title: "Tenu Na Bol Pawaan", artist: "Amjad Nadeem", src: "Tenu Na Bol Pawaan - Behen Hogi Teri _ Shruti Haasan_Raj Kummar Rao _ Amjad Nadeem(MP3_160K).mp3" },
   { title: "Sajjan Raazi", artist: "Satindar Sartaaj", src: "Sajjan Raazi(MP3_160K).mp3" },
-  { title: "Tera Yaar Hoon Main", artist: "Unknown", src: "Tera Yaar Hoon Mein Acoustic Cover...🎧.mp3" },
+  { title: "Tera Yaar Hoon Main", artist: "Priyansh Music", src: "Tera Yaar Hoon Mein Acoustic Cover...🎧.mp3" },
+  { title: "Perfect", artist: "Ed Sheeran", src: "Ed Sheeran - Perfect(MP3_160K).mp3" }
 ];
 
 /* Elements */
