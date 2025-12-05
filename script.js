@@ -38,7 +38,8 @@ const songs = [
   { title: "Teen Baan Ke Dhaari", artist: "Chhotu Ravana", src: "Teen Baan Ke Dhaari.mp3" }, 
   { title: "Bol Do Na Zara", artist: "Arman Malik", src: "Bol Do Na Zara.mp3" },
   { title: "Kabhi Jo Badal Barse", artist: "Arijit Singh", src: "Kabhi Jo Badal Barse.mp3" },
-  { title: "Tere Bin", artist: "Shergill", src: "Tere Bin(MP3_160K).mp3" }
+  { title: "Tere Bin", artist: "Shergill", src: "Tere Bin(MP3_160K).mp3" }, 
+  { title: "Suniyan Suniyan X Tere Naina", artist: "Mashup", src: "SUNIYAN SUNIYAN X TERE NAINA.mp3" }
 ];
 
 /* Elements */
