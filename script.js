@@ -15,19 +15,20 @@
 
 /* SONG LIST — matches your REAL filenames */
 const songs = [
-  { title: "Apsara", artist: "Unknown", src: "Apsara(KoshalWorld.Com).mp3" },
-  { title: "Dil Jhoom", artist: "Crakk Movie", src: "Dil Jhoom (Crakk)-(Mr-Jat.in).mp3" },
-  { title: "Ghoonghat Ki Aadh Se", artist: "Hum Hain Rahi Pyar Ke", src: "Ghoonghat Ki Aadh Se Hum Hain Rahi Pyar Ke 128 Kbps.mp3" },
-  { title: "Ishq Hai", artist: "Unknown", src: "Ishq Hai(KoshalWorld.Com).mp3" },
-  { title: "Jeena Haraam", artist: "Crakk", src: "Jeena Haraam (Crakk)-(Mr-Jat.in).mp3" },
-  { title: "Kaabil Hoon", artist: "Jubin Nautiyal", src: "Kaabil Hoon Jubin Nautiyal 128 Kbps.mp3" },
-  { title: "Kaise Hua", artist: "Kabir Singh", src: "Kaise Hua - Kabir Singh-(Mr-Jat.in).mp3" },
-  { title: "O Rangrez", artist: "Shreya Ghoshal", src: "O Rangrez(KoshalWorld.Com).mp3" },
-  { title: "Tere Bina Na Guzara", artist: "Unknown", src: "Tere Bina Na Guzara(KoshalWorld.Com).mp3" },
-  { title: "Teri Aankhon Mein", artist: "Unknown", src: "Teri Aankhon Mein(KoshalWorld.Com).mp3" },
+  { title: "Apsara", artist: "Shreya Karmakar", src: "Apsara(KoshalWorld.Com).mp3" },
+  { title: "Dil Jhoom", artist: "Vishal Mishra, Shreya Ghosal", src: "Dil Jhoom (Crakk)-(Mr-Jat.in).mp3" },
+  { title: "Ghoonghat Ki Aadh Se", artist: "Kumar Sanu, Alka Yagnik", src: "Ghoonghat Ki Aadh Se Hum Hain Rahi Pyar Ke 128 Kbps.mp3" },
+  { title: "Ishq Hai", artist: "Anurag Saikia, Varun Jain", src: "Ishq Hai(KoshalWorld.Com).mp3" },
+  { title: "Jeena Haraam", artist: "Vishal Mishra", src: "Jeena Haraam (Crakk)-(Mr-Jat.in).mp3" },
+  { title: "Kaabil Hoon", artist: "Jubin Nautiyal, Palak Muchchhal", src: "Kaabil Hoon Jubin Nautiyal 128 Kbps.mp3" },
+  { title: "Kaise Hua", artist: "Vishal Mishra", src: "Kaise Hua - Kabir Singh-(Mr-Jat.in).mp3" },
+  { title: "O Rangrez", artist: "Shankar Ehsan Loy, Shreya Ghoshal", src: "O Rangrez(KoshalWorld.Com).mp3" },
+  { title: "Tere Bina Na Guzara", artist: "Josh Brar", src: "Tere Bina Na Guzara(KoshalWorld.Com).mp3" },
+  { title: "Teri Aankhon Mein", artist: "Darshan Raval, Neha Kakkar", src: "Teri Aankhon Mein(KoshalWorld.Com).mp3" },
   { title: "Tu Jaane Na", artist: "Atif Aslam", src: "Tu Jaane Na-(Mr-Jat.in).mp3" },
-  { title: "Tum Ho Toh", artist: "Arijit Singh", src: "Tum Ho Toh Saiyaara 128 Kbps.mp3" },
-  { title: "Tune Zindagi Mein", artist: "Unknown", src: "Tune Zindagi Mein(KoshalWorld.Com).mp3" }
+  { title: "Tum Ho Toh", artist: "Vishal Mishra", src: "Tum Ho Toh Saiyaara 128 Kbps.mp3" },
+  { title: "Tune Zindagi Mein", artist: "Udit Narayan", src: "Tune Zindagi Mein(KoshalWorld.Com).mp3" },
+  { title: "O Re Piya", artist: "Atif Aslam", src: "Atif_Aslam_-_O_Re_Piya_(mp3.pm).mp3" }
 ];
 
 /* Elements */
