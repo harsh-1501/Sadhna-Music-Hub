@@ -34,7 +34,8 @@ const songs = [
   { title: "Sajjan Raazi", artist: "Satindar Sartaaj", src: "Sajjan Raazi(MP3_160K).mp3" },
   { title: "Tera Yaar Hoon Main", artist: "Priyansh Music", src: "Tera Yaar Hoon Mein Acoustic Cover...🎧.mp3" },
   { title: "Perfect", artist: "Ed Sheeran", src: "Ed Sheeran - Perfect(MP3_160K).mp3" },
-  { title: "Tumse behtar", artist: "Harsh", src: "Tumse behtar cover song.mp3" }
+  { title: "Tumse behtar", artist: "Harsh", src: "Tumse behtar cover song.mp3" },
+  { title: "Teen Baan Ke Dhaari", artist: "Chhotu Ravana", src: "Teen Baan Ke Dhaari.mp3" }
 ];
 
 /* Elements */
