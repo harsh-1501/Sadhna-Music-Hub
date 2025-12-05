@@ -34,12 +34,17 @@ const songs = [
   { title: "Sajjan Raazi", artist: "Satindar Sartaaj", src: "Sajjan Raazi(MP3_160K).mp3" },
   { title: "Tera Yaar Hoon Main", artist: "Priyansh Music", src: "Tera Yaar Hoon Mein Acoustic Cover...🎧.mp3" },
   { title: "Perfect", artist: "Ed Sheeran", src: "Ed Sheeran - Perfect(MP3_160K).mp3" },
-  { title: "Tumse behtar", artist: "Harsh", src: "Tumse behtar cover song.mp3" },
   { title: "Teen Baan Ke Dhaari", artist: "Chhotu Ravana", src: "Teen Baan Ke Dhaari.mp3" }, 
   { title: "Bol Do Na Zara", artist: "Arman Malik", src: "Bol Do Na Zara.mp3" },
   { title: "Kabhi Jo Badal Barse", artist: "Arijit Singh", src: "Kabhi Jo Badal Barse.mp3" },
   { title: "Tere Bin", artist: "Shergill", src: "Tere Bin(MP3_160K).mp3" }, 
-  { title: "Suniyan Suniyan X Tere Naina", artist: "Mashup", src: "SUNIYAN SUNIYAN X TERE NAINA.mp3" }
+  { title: "Suniyan Suniyan X Tere Naina", artist: "Mashup", src: "SUNIYAN SUNIYAN X TERE NAINA.mp3" }, 
+  { title: "Main Woh Chaand", artist: "Darshan Raval", src: "Main Woh Chaand.mp3" },
+  { title: "Mann Mera", artist: "Gajendra Verma", src: "Mann Mera.mp3" },
+  { title: "Rani Teri Ek Jhalak", artist: "Arpit Bala, Toorjo Dey", src: "Rani Teri Ek Jhalak.mp3" },
+  { title: "Dooron Dooron", artist: "Paresh Pahuja", src: "Dooron Dooron.mp3" },
+  { title: "Tum Tak", artist: "Javed Ali, Kirti Sagathia, Pooja Vidyanath", src: "Tum Tak.mp3" },
+  { title: "Humro Umar Lag Jaye", artist: "Pawan Singh", src: "Humro Umar Lag Jaye.mp3" }
 ];
 
 /* Elements */
