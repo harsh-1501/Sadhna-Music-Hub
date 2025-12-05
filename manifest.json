@@ -1,0 +1,20 @@
+{
+  "name": "Sadhna Music Hub",
+  "short_name": "Sadhna Music",
+  "description": "Premium music player with advanced features - Made by Sadhna",
+  "start_url": "./index (3).html",
+  "display": "standalone",
+  "background_color": "#d1a7bb",
+  "theme_color": "#b07ebd",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "Sd1811.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["music", "entertainment"],
+  "lang": "en-US"
+}
