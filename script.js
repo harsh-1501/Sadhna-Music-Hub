@@ -33,7 +33,8 @@ const songs = [
   { title: "Tenu Na Bol Pawaan", artist: "Amjad Nadeem", src: "Tenu Na Bol Pawaan - Behen Hogi Teri _ Shruti Haasan_Raj Kummar Rao _ Amjad Nadeem(MP3_160K).mp3" },
   { title: "Sajjan Raazi", artist: "Satindar Sartaaj", src: "Sajjan Raazi(MP3_160K).mp3" },
   { title: "Tera Yaar Hoon Main", artist: "Priyansh Music", src: "Tera Yaar Hoon Mein Acoustic Cover...🎧.mp3" },
-  { title: "Perfect", artist: "Ed Sheeran", src: "Ed Sheeran - Perfect(MP3_160K).mp3" }
+  { title: "Perfect", artist: "Ed Sheeran", src: "Ed Sheeran - Perfect(MP3_160K).mp3" },
+  { title: "Tumse behtar", artist: "Harsh", src: "Tumse behtar cover song.mp3" }
 ];
 
 /* Elements */
