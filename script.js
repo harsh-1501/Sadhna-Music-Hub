@@ -44,7 +44,8 @@ const songs = [
   { title: "Rani Teri Ek Jhalak", artist: "Arpit Bala, Toorjo Dey", src: "Rani Teri Ek Jhalak.mp3" },
   { title: "Dooron Dooron", artist: "Paresh Pahuja", src: "Dooron Dooron.mp3" },
   { title: "Tum Tak", artist: "Javed Ali, Kirti Sagathia, Pooja Vidyanath", src: "Tum Tak.mp3" },
-  { title: "Humro Umar Lag Jaye", artist: "Pawan Singh", src: "Humro Umar Lag Jaye.mp3" }
+  { title: "Humro Umar Lag Jaye", artist: "Pawan Singh", src: "Humro Umar Lag Jaye.mp3" },
+  { title: "Tumse Behtar Cover Song", artist: "Harsh", src: "Tumse behtar cover song.mp3" }
 ];
 
 /* Elements */
