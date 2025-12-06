@@ -61,6 +61,11 @@ body{
 
 .search-box{width:100%;padding:10px 12px;margin-bottom:12px;border-radius:10px;border:none;background:rgba(255,255,255,0.05);color:#fff;outline:none}
 
+/* upload section */
+.upload-section{margin-bottom:12px}
+.upload-section #uploadBtn{width:100%;padding:10px 12px;font-size:14px;background:linear-gradient(135deg,var(--accent),#ffd1dc);border:none;color:#fff;border-radius:10px;cursor:pointer;transition:all var(--transition-fast)}
+.upload-section #uploadBtn:hover{background:linear-gradient(135deg,#9d6ba0,#f8a8d8);transform:translateY(-2px)}
+
 /* playlist items */
 .playlist-items{display:flex;flex-direction:column;gap:8px}
 .playlist-item{padding:10px 12px;border-radius:10px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;background:transparent;transition:all .15s;color:#fff}
