@@ -37,6 +37,11 @@
         <span id="playlistCount">0 songs</span>
       </div>
 
+      <div class="upload-section">
+        <input type="file" id="uploadAudio" accept="audio/*" multiple style="display:none;">
+        <button id="uploadBtn" class="action-btn" title="Upload songs">📁 Upload Song</button>
+      </div>
+
       <input type="text" id="searchBox" placeholder="Search song or artist..." class="search-box">
 
       <div id="playlistItems" class="playlist-items"></div>
@@ -51,7 +56,7 @@
 
           <!-- ALBUM ART -->
           <div class="art-wrap glass-inner">
-            <img id="albumArt" class="album-art" src="Sd1811.png" alt="Album Art">
+            <img id="albumArt" class="album-art" src="Screenshot 2025-12-04 143711.png" alt="Album Art">
             <div class="glow-ring"></div>
             <div class="particles"></div>
           </div>
@@ -128,7 +133,7 @@
               <input id="progressInput" class="progress-input" type="range" min="0" max="100" value="0">
             </div>
 
-            <span id="totalTime">3:07</span>
+            <span id="totalTime">0:00</span>
           </div>
 
           <!-- PLAYBACK CONTROLS -->
@@ -181,7 +186,7 @@
 
   <!-- MINI PLAYER (MOBILE) -->
   <div id="miniPlayer" class="mini-player hidden">
-    <img id="miniArt" src="Sd1811.png">
+    <img id="miniArt" src="Screenshot 2025-12-04 175845.png">
     <div class="mini-meta">
       <div id="miniTitle">—</div>
       <div id="miniArtist">—</div>
@@ -222,5 +227,4 @@
   <script src="script.js"></script>
 
 </body>
-
 </html>
