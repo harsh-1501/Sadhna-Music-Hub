@@ -14,45 +14,140 @@
 ======================================================== */
 
 /* SONG LIST — matches your REAL filenames */
-const songs = [
-  { title: "Apsara", artist: "Shreya Karmakar", src: "Apsara(KoshalWorld.Com).mp3" },
-  { title: "Dil Jhoom", artist: "Vishal Mishra, Shreya Ghosal", src: "Dil Jhoom (Crakk)-(Mr-Jat.in).mp3" },
-  { title: "Ghoonghat Ki Aadh Se", artist: "Kumar Sanu, Alka Yagnik", src: "Ghoonghat Ki Aadh Se Hum Hain Rahi Pyar Ke 128 Kbps.mp3" },
-  { title: "Ishq Hai", artist: "Anurag Saikia, Varun Jain", src: "Ishq Hai(KoshalWorld.Com).mp3" },
-  { title: "Jeena Haraam", artist: "Vishal Mishra", src: "Jeena Haraam (Crakk)-(Mr-Jat.in).mp3" },
-  { title: "Kaabil Hoon", artist: "Jubin Nautiyal, Palak Muchchhal", src: "Kaabil Hoon Jubin Nautiyal 128 Kbps.mp3" },
-  { title: "Kaise Hua", artist: "Vishal Mishra", src: "Kaise Hua - Kabir Singh-(Mr-Jat.in).mp3" },
-  { title: "O Rangrez", artist: "Shankar Ehsan Loy, Shreya Ghoshal", src: "O Rangrez(KoshalWorld.Com).mp3" },
-  { title: "Tere Bina Na Guzara", artist: "Josh Brar", src: "Tere Bina Na Guzara(KoshalWorld.Com).mp3" },
-  { title: "Teri Aankhon Mein", artist: "Darshan Raval, Neha Kakkar", src: "Teri Aankhon Mein(KoshalWorld.Com).mp3" },
-  { title: "Tu Jaane Na", artist: "Atif Aslam", src: "Tu Jaane Na-(Mr-Jat.in).mp3" },
-  { title: "Tum Ho Toh", artist: "Vishal Mishra", src: "Tum Ho Toh Saiyaara 128 Kbps.mp3" },
-  { title: "Tune Zindagi Mein", artist: "Udit Narayan", src: "Tune Zindagi Mein(KoshalWorld.Com).mp3" },
-  { title: "O Re Piya", artist: "Atif Aslam", src: "Atif_Aslam_-_O_Re_Piya_(mp3.pm).mp3" },
-  { title: "Ek Pal Ka Jeena - Mashup by Khudgharz", artist: "Khudgharz Band", src: "Ek Pal Ka Jeena _ Samjho Na _ Tauba Tauba _ Wishes _ 9_45 _ KHUDGHARZ(MP3_160K).mp3" },
-  { title: "Tenu Na Bol Pawaan", artist: "Amjad Nadeem", src: "Tenu Na Bol Pawaan - Behen Hogi Teri _ Shruti Haasan_Raj Kummar Rao _ Amjad Nadeem(MP3_160K).mp3" },
-  { title: "Sajjan Raazi", artist: "Satindar Sartaaj", src: "Sajjan Raazi(MP3_160K).mp3" },
-  { title: "Tera Yaar Hoon Main", artist: "Priyansh Music", src: "Tera Yaar Hoon Mein Acoustic Cover...🎧.mp3" },
-  { title: "Perfect", artist: "Ed Sheeran", src: "Ed Sheeran - Perfect(MP3_160K).mp3" },
-  { title: "Teen Baan Ke Dhaari", artist: "Chhotu Ravana", src: "Teen Baan Ke Dhaari.mp3" }, 
-  { title: "Bol Do Na Zara", artist: "Arman Malik", src: "Bol Do Na Zara.mp3" },
-  { title: "Kabhi Jo Badal Barse", artist: "Arijit Singh", src: "Kabhi Jo Badal Barse.mp3" },
-  { title: "Tere Bin", artist: "Shergill", src: "Tere Bin(MP3_160K).mp3" }, 
-  { title: "Suniyan Suniyan X Tere Naina", artist: "Mashup", src: "SUNIYAN SUNIYAN X TERE NAINA.mp3" }, 
-  { title: "Main Woh Chaand", artist: "Darshan Raval", src: "Main Woh Chaand.mp3" },
-  { title: "Mann Mera", artist: "Gajendra Verma", src: "Mann Mera.mp3" },
-  { title: "Rani Teri Ek Jhalak", artist: "Arpit Bala, Toorjo Dey", src: "Rani Teri Ek Jhalak.mp3" },
-  { title: "Dooron Dooron", artist: "Paresh Pahuja", src: "Dooron Dooron.mp3" },
-  { title: "Tum Tak", artist: "Javed Ali, Kirti Sagathia, Pooja Vidyanath", src: "Tum Tak.mp3" },
-  { title: "Humro Umar Lag Jaye", artist: "Pawan Singh", src: "Humro Umar Lag Jaye.mp3" },
-  { title: "Tumse Behtar Cover Song", artist: "Harsh", src: "Tumse behtar cover song.mp3" }
+let songs = [
+ { title: "Apsara", artist: "Shreya Karmakar", src: "Apsara(KoshalWorld.Com).mp3" },
+ { title: "Dil Jhoom", artist: "Vishal Mishra, Shreya Ghosal", src: "Dil Jhoom (Crakk)-(Mr-Jat.in).mp3" },
+ { title: "Ghoonghat Ki Aadh Se", artist: "Kumar Sanu, Alka Yagnik", src: "Ghoonghat Ki Aadh Se Hum Hain Rahi Pyar Ke 128 Kbps.mp3" },
+ { title: "Ishq Hai", artist: "Anurag Saikia, Varun Jain", src: "Ishq Hai(KoshalWorld.Com).mp3" },
+ { title: "Jeena Haraam", artist: "Vishal Mishra", src: "Jeena Haraam (Crakk)-(Mr-Jat.in).mp3" },
+ { title: "Kaabil Hoon", artist: "Jubin Nautiyal, Palak Muchchhal", src: "Kaabil Hoon Jubin Nautiyal 128 Kbps.mp3" },
+ { title: "Kaise Hua", artist: "Vishal Mishra", src: "Kaise Hua - Kabir Singh-(Mr-Jat.in).mp3" },
+ { title: "O Rangrez", artist: "Shankar Ehsan Loy, Shreya Ghoshal", src: "O Rangrez(KoshalWorld.Com).mp3" },
+ { title: "Tere Bina Na Guzara", artist: "Josh Brar", src: "Tere Bina Na Guzara(KoshalWorld.Com).mp3" },
+ { title: "Teri Aankhon Mein", artist: "Darshan Raval, Neha Kakkar", src: "Teri Aankhon Mein(KoshalWorld.Com).mp3" },
+ { title: "Tu Jaane Na", artist: "Atif Aslam", src: "Tu Jaane Na-(Mr-Jat.in).mp3" },
+ { title: "Tum Ho Toh", artist: "Vishal Mishra", src: "Tum Ho Toh Saiyaara 128 Kbps.mp3" },
+ { title: "Tune Zindagi Mein", artist: "Udit Narayan", src: "Tune Zindagi Mein(KoshalWorld.Com).mp3" },
+ { title: "O Re Piya", artist: "Atif Aslam", src: "Atif_Aslam_-_O_Re_Piya_(mp3.pm).mp3" },
+ { title: "Aashiyan", artist: "Sunidhi Chauhan", src: "Aashiyan-(Mr-Jat.in).mp3" },
+ { title: "Baarish Ban Jaana", artist: "Ash King, Payal Dev", src: "Baarish_Ban_Jaana-(Mr-Jat.in).mp3" },
+ { title: "Chaleya", artist: "Arijit Singh, Shashaa Tirupati", src: "Chaleya-(Mr-Jat.in).mp3" },
+ { title: "Dil Diyan Gallan", artist: "Atif Aslam", src: "Dil_Diyan_Gallan-(Mr-Jat.in).mp3" },
+ { title: "Ek Ajnabee Haseena Se", artist: "Rafi, Lata Mangeshkar", src: "Ek_Ajnabee-(Mr-Jat.in).mp3" },
+ { title: "Filhaal", artist: "Akshay Kumar, Nupur Sanon", src: "Filhaal-(Mr-Jat.in).mp3" },
+ { title: "Galliyan", artist: "Ek Villain", src: "Galliyan-(Mr-Jat.in).mp3" },
+ { title: "Har Ek Friend Kamaal Ka", artist: "Sonu Nigam, Sukhwinder Singh", src: "Har_Ek_Friend-(Mr-Jat.in).mp3" },
+ { title: "Ilahi", artist: "Arijit Singh", src: "Ilahi-(Mr-Jat.in).mp3" },
+ { title: "Jee Karda", artist: "Badshah, Aisha Patel", src: "Jee_Karda-(Mr-Jat.in).mp3" }
 ];
+
+let filteredSongs = [...songs];
+
+/* IndexedDB helpers - store audio blobs locally */
+function openFilesDB() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open("sadhna_files", 1);
+    req.onupgradeneeded = (e) => {
+      const db = e.target.result;
+      if (!db.objectStoreNames.contains("files")) {
+        db.createObjectStore("files", { keyPath: "id", autoIncrement: true });
+      }
+    };
+    req.onsuccess = (e) => resolve(e.target.result);
+    req.onerror = (e) => reject(e.target.error);
+  });
+}
+
+async function saveFileToDB(file) {
+  const db = await openFilesDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction("files", "readwrite");
+    const store = tx.objectStore("files");
+    const req = store.add({ file });
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+async function getFileFromDB(id) {
+  const db = await openFilesDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction("files", "readonly");
+    const store = tx.objectStore("files");
+    const req = store.get(Number(id));
+    req.onsuccess = () => resolve(req.result ? req.result.file : null);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+/* Load/Save songs from localStorage */
+async function loadSongsFromStorage() {
+  const saved = localStorage.getItem("sadhna_songs");
+  if (saved) {
+    try {
+      songs = JSON.parse(saved);
+      // Restore blobs for entries that reference a saved fileId
+      for (let s of songs) {
+        if (s.fileId != null) {
+          try {
+            const file = await getFileFromDB(s.fileId);
+            if (file) {
+              if (s._blobUrl) URL.revokeObjectURL(s._blobUrl);
+              s._blobUrl = URL.createObjectURL(file);
+              s.src = s._blobUrl;
+            }
+          } catch (err) {
+            console.warn("Failed to load file blob for", s.title, err);
+          }
+        }
+      }
+      filteredSongs = [...songs];
+    } catch (e) {
+      console.error("Failed to load songs from storage:", e);
+    }
+  } else {
+    saveSongsToStorage();
+  }
+}
+
+function saveSongsToStorage() {
+  localStorage.setItem("sadhna_songs", JSON.stringify(songs));
+}
+
+function addNewSong(title, artist, src) {
+  const newSong = { title, artist, src };
+  songs.push(newSong);
+  saveSongsToStorage();
+  filteredSongs = [...songs];
+  buildPlaylist();
+  return newSong;
+}
+
+/* -------------------------------------------------------
+   UTILITY FUNCTIONS
+-------------------------------------------------------- */
+function showToast(message, duration = 3000) {
+  toast.textContent = message;
+  toast.classList.add("show");
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, duration);
+}
+
+function unlockAudio() {
+  if (audioCtx && audioCtx.state === "suspended") {
+    audioCtx.resume();
+  }
+}
 
 /* Elements */
 const audio = document.getElementById("audioPlayer");
 const playBtn = document.getElementById("playBtn");
 const playIcon = document.querySelector(".play-icon");
 const pauseIcon = document.querySelector(".pause-icon");
+
+const uploadBtn = document.getElementById("uploadBtn");
+const uploadAudio = document.getElementById("uploadAudio");
 
 const nextBtn = document.getElementById("nextBtn");
 const prevBtn = document.getElementById("prevBtn");
@@ -68,7 +163,7 @@ const songArtist = document.getElementById("songArtist");
 const miniTitle = document.getElementById("miniTitle");
 const miniArtist = document.getElementById("miniArtist");
 const miniArt = document.getElementById("miniArt");
-const miniPlay = document.getElementById("miniPlay")
+const miniPlay = document.getElementById("miniPlay");
 const miniPrev = document.getElementById("miniPrev");
 const miniNext = document.getElementById("miniNext");
 
@@ -90,30 +185,12 @@ const toast = document.getElementById("toast");
 let currentIndex = 0;
 let isShuffle = false;
 let isRepeat = false;
-let filteredSongs = [...songs];
 
 let audioCtx = null;
 let analyser = null;
 let sourceNode = null;
 let dataArray = null;
 let filters = [];
-
-/* -------------------------------------------------------
-   UTILITY FUNCTIONS
--------------------------------------------------------- */
-function showToast(message, duration = 3000) {
-  toast.textContent = message;
-  toast.classList.add("show");
-  setTimeout(() => {
-    toast.classList.remove("show");
-  }, duration);
-}
-
-function unlockAudio() {
-  if (audioCtx && audioCtx.state === "suspended") {
-    audioCtx.resume();
-  }
-}
 
 /* -------------------------------------------------------
    AUDIO ENGINE + VISUALIZER + EQ
@@ -588,11 +665,12 @@ if ("serviceWorker" in navigator) {
 /* -------------------------------------------------------
    INIT
 -------------------------------------------------------- */
-createEqualizerBars();
-buildPlaylist();
-loadSong(0);
-audio.volume = 0.7;
-volumeSlider.value = 70;
+(async () => {
+  await loadSongsFromStorage();
+  createEqualizerBars();
+  buildPlaylist();
+  if (songs.length) loadSong(0);
+})();
 
 /* Load saved settings */
 setTimeout(() => {
@@ -608,3 +686,55 @@ setTimeout(() => {
 /* -------------------------------------------------------
    END - Made with ❤️ by Sadhna
 -------------------------------------------------------- */
+
+/* -------------------------------------------------------
+    FILE UPLOAD HANDLER
+-------------------------------------------------------- */
+uploadBtn.addEventListener("click", () => {
+  uploadAudio.click();
+});
+
+uploadAudio.addEventListener("change", async (e) => {
+  const files = e.target.files;
+  if (!files.length) return;
+
+  for (let file of files) {
+    if (!file.type.startsWith("audio/")) {
+      showToast("Invalid file: " + file.name + " is not audio");
+      continue;
+    }
+
+    try {
+      // Save file to IndexedDB
+      const fileId = await saveFileToDB(file);
+      
+      // Create blob URL for playback
+      const blobUrl = URL.createObjectURL(file);
+      
+      // Extract filename as title (remove extension)
+      const title = file.name.replace(/\.[^/.]+$/, "");
+      
+      // Add song to playlist
+      const newSong = {
+        title: title,
+        artist: "Unknown Artist",
+        src: blobUrl,
+        _blobUrl: blobUrl,
+        fileId: fileId
+      };
+      
+      songs.push(newSong);
+      filteredSongs = [...songs];
+      saveSongsToStorage();
+      buildPlaylist();
+      
+      showToast(`✅ Added: ${title}`);
+    } catch (err) {
+      console.error("Upload failed:", err);
+      showToast("Failed to upload: " + file.name);
+    }
+  }
+  
+  // Reset file input
+  uploadAudio.value = "";
+});
